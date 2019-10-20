@@ -50,7 +50,7 @@
 							<span class="checkmark"></span>
 						</label>
 					</div>
-					<button type="submit" name="Login" value="Register Now">Register Now</button>
+					<button type="submit" name="signup" value="Register Now">Register Now</button>
 				</form>
 			</div>
 		</div>

@@ -65,18 +65,8 @@
           <div class="menu-wrap d-flex align-items-center">
             <span class="d-inline-block d-lg-none"><a href="#" class="text-black site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-black"></span></a></span>
 
-              
+              <?php include 'navigation_bar.php'?>
 
-              <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
-                <ul class="site-menu main-menu js-clone-nav mr-auto ">
-                  <li><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="services.html" class="nav-link">Services</a></li>
-                  <li><a href="projects.html" class="nav-link">Projects</a></li>
-                  <li><a href="about.html" class="nav-link">About</a></li>
-                  <li><a href="blog.html" class="nav-link">Blog</a></li>
-                  <li class="active"><a href="contact.html" class="nav-link">Contact</a></li>
-                </ul>
-              </nav>
 
               <div class="top-social ml-auto">
                 <a href="#"><span class="icon-facebook"></span></a>
@@ -97,8 +87,9 @@
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-5 mt-5 pt-5">
-              <h1 class="mb-3">Contact Us</h1>
+              <h1 class="mb-3">Blog/Articles</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta veritatis in tenetur doloremque, maiores doloribus officia iste. Dolores.</p>
+              <p><a href="#" class="btn btn-primary">Learn More</a></p>
             </div>
           </div>
         </div>
@@ -106,56 +97,112 @@
     </div>
 
 
-    <div class="site-section bg-light" id="contact-section">
+    <div class="site-section bg-white">
       <div class="container">
-        <div class="row justify-content-center text-center">
-        <div class="col-7 text-center mb-5">
-          <h2>Get In Touch Using The Contact Form</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
-        </div>
-      </div>
-        <div class="row">
-          <div class="col-lg-8 mb-5" >
-            <form action="#" method="post">
-              <div class="form-group row">
-                <div class="col-md-6 mb-4 mb-lg-0">
-                  <input type="text" class="form-control" placeholder="First name">
-                </div>
-                <div class="col-md-6">
-                  <input type="text" class="form-control" placeholder="First name">
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <input type="text" class="form-control" placeholder="Email address">
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <textarea name="" id="" class="form-control" placeholder="Write your message." cols="30" rows="10"></textarea>
-                </div>
-              </div>
-              <div class="form-group row">
-                <div class="col-md-6 mr-auto">
-                  <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Send Message">
-                </div>
-              </div>
-            </form>
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-7 text-center mb-5">
+            <h2 class="section-heading text-center">Our Blog</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
           </div>
-          <div class="col-lg-4 ml-auto">
-            <div class="bg-white p-3 p-md-5">
-              <h3 class="text-black mb-4">Contact Info</h3>
-              <ul class="list-unstyled footer-link">
-                <li class="d-block mb-3">
-                  <span class="d-block text-black">Address:</span>
-                  <span>34 Street Name, City Name Here, United States</span></li>
-                <li class="d-block mb-3"><span class="d-block text-black">Phone:</span><span>+1 242 4942 290</span></li>
-                <li class="d-block mb-3"><span class="d-block text-black">Email:</span><span>info@yourdomain.com</span></li>
-              </ul>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="single.html">
+                <img src="images/img_1.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+              </div>
             </div>
           </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="single.html">
+                <img src="images/img_2.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="single.html">
+                <img src="images/img_3.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="single.html">
+                <img src="images/img_1.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="single.html">
+                <img src="images/img_2.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="single.html">
+                <img src="images/img_3.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 mt-5 text-center">
+            <span class="p-3">1</span>
+            <a href="#" class="p-3">2</a>
+            <a href="#" class="p-3">3</a>
+            <a href="#" class="p-3">4</a>
+          </div>
+          
         </div>
       </div>
     </div>
